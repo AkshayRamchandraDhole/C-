@@ -1,0 +1,11 @@
+#include<iostream>
+int main(){
+	int i=1;
+	int sum=0;
+	for(;i<=10;){
+	sum=sum+i;
+	i++;
+	}
+	std::cout<<"Sum="<<sum<<std::endl;
+	return 0;
+}
